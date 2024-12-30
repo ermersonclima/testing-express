@@ -1,0 +1,34 @@
+{
+  "name": "testing-express",
+  "version": "1.0.0",
+  "description": "a simple app to test express and web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ermersonclima/testing-express.git"
+  },
+  "keywords": [
+    "express",
+    "html",
+    "js",
+    "ts"
+  ],
+  "author": "ermersonclima",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ermersonclima/testing-express/issues"
+  },
+  "homepage": "https://github.com/ermersonclima/testing-express#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "dotenv": "^16.4.7",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
