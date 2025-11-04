@@ -24,7 +24,6 @@
   },
   "homepage": "https://github.com/ermersonclima/testing-express#readme",
   "dependencies": {
-    "dotenv": "^17.2.3",
     "express": "^5.1.0"
   },
   "devDependencies": {
