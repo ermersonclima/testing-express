@@ -2,11 +2,9 @@
   "name": "testing-express",
   "version": "1.0.0",
   "description": "a simple app to test express and web application",
-  "main": "index.js",
+  "main": "./src/server.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsx src/server.ts",
-    "dev": "tsx watch src/server.ts",
+    "start": "nodemon",
     "build": "tsc"
   },
   "repository": {
@@ -25,13 +23,15 @@
     "url": "https://github.com/ermersonclima/testing-express/issues"
   },
   "homepage": "https://github.com/ermersonclima/testing-express#readme",
-  "devDependencies": {
-    "@types/express": "^5.0.0",
-    "dotenv": "^16.4.7",
-    "tsx": "^4.19.2",
-    "typescript": "^5.7.2"
-  },
   "dependencies": {
-    "express": "^4.21.2"
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
   }
 }
