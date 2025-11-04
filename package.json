@@ -5,7 +5,8 @@
   "main": "./src/server.ts",
   "scripts": {
     "start": "nodemon",
-    "build": "tsc"
+    "build": "tsc",
+    "watch:client": "esbuild src/index.ts --bundle --sourcemap --outfile=build/index.js --watch"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,7 @@
   "devDependencies": {
     "@types/express": "^5.0.5",
     "@types/node": "^24.10.0",
+    "esbuild": "^0.25.12",
     "nodemon": "^3.1.10",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"

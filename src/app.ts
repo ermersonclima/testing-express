@@ -1,12 +1,14 @@
-import express from 'express'
-import path from 'path'
+import express from "express";
+import path from "path";
 
-const app = express()
+const app = express();
 
-app.use(express.static(path.join(__dirname)))
+app.use("/build", express.static(path.join(__dirname, "..", "build")));
 
-app.get('/', (_req, res) => {
-  res.sendFile(path.join(__dirname, 'index.html'))
-})
+app.use(express.static(path.join(__dirname)));
 
-export default app
+app.get("/", (_req, res) => {
+  res.sendFile(path.join(__dirname, "index.html"));
+});
+
+export default app;

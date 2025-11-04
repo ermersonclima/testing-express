@@ -1,2 +1,5 @@
 # Node.js Tools for Visual Studio
 node_modules/
+
+# JS files generated from TS files
+build/
